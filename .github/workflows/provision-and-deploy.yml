@@ -25,7 +25,7 @@ jobs:
 
     - name: Install kubectl
       run: |
-        curl -LO https://dl.k8s.io/release/v1.29.2/bin/darwin/arm64/kubectl
+        curl -LO https://dl.k8s.io/release/v1.29.2/bin/linux/amd64/kubectl
         chmod +x kubectl
         mkdir -p ~/.local/bin
         mv ./kubectl ~/.local/bin/kubectl
